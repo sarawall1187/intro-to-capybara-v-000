@@ -29,3 +29,8 @@ describe "POST '/greet' - User Greeting" do
     expect(page).to have_text("Hi Avi, nice to meet you!")
   end
 end
+
+RSpec.configure do |config|
+  config.include Capybara::DSL
+  config.order = 'default'
+end
