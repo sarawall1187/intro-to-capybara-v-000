@@ -1,7 +1,4 @@
 require 'spec_helper'
-require 'rspec'
-require 'capybara/rspec'
-require 'capybara/dsl'
 
 describe "GET '/' - Greeting Form" do
   # Code from previous example
